@@ -32,7 +32,7 @@ Isi file index.html dengan kode berikut
 
 Pembahasan :
 
-Kode HTML ini adalah struktur dasar dari sebuah halaman web. Tag <title> menetapkan judul halaman yang akan ditampilkan pada tab browser. Tag<h1> digunakan untuk judul utama di halaman, dan tag <p> berisi tautan ke halaman profil dengan menggunakan tag <a>. Tautan ini akan mengarahkan pengguna ke website profil yang berjalan di port 8081.
+Kode HTML ini adalah struktur dasar dari sebuah halaman web. Tag <title> menetapkan judul halaman yang akan ditampilkan pada tab browser. Tag h1 digunakan untuk judul utama di halaman, dan tag p berisi tautan ke halaman profil dengan menggunakan tag <a>. Tautan ini akan mengarahkan pengguna ke website profil yang berjalan di port 8081.
 
 
 **1.3. Buat file HTML di dalam direktori website-profil**
