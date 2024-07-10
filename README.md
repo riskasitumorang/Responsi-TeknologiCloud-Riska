@@ -2,7 +2,7 @@
  
 # 1. Persiapan
 
-**1.1. Buat Direktori**
+# 2 1.1. Buat Direktori
 Buat dua direktori yaitu website-utama dan website-profil.
 
 _mkdir website-utama website-profil_
