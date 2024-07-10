@@ -8,11 +8,16 @@ Buat dua direktori yaitu website-utama dan website-profil.
 
 _mkdir website-utama website-profil_
 
-![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/c422807f-579d-4865-9107-9ee57cfcb597)
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/a3642b2f-c994-49ba-b40f-c05a8208ac2b)
+Pembahasan :
+Perintah mkdir website-utama website-profil digunakan untuk membuat dua direktori baru bernama website-utama dan website-profil. Direktori ini akan digunakan untuk menyimpan file HTML dan Dockerfile yang terkait dengan masing-masing website. Dengan membuat direktori terpisah, struktur proyek menjadi lebih terorganisir dan mudah dikelola.
+
 
 **1.2. Buat file HTML di dalam direktori website-utama**
 
 _nano website-utama/index.html_
+
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/e794c1f0-c9fa-49af-9b8c-b97bce87ade9)
 
 Isi file index.html dengan kode berikut
 
