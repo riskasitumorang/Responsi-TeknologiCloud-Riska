@@ -1,12 +1,11 @@
 # Responsi-TeknologiCloud-Riska
  
-1. Persiapan
+#1. Persiapan
 1.1. Buat Direktori
 Buat dua direktori yaitu website-utama dan website-profil.
+_mkdir website-utama website-profil_
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/c422807f-579d-4865-9107-9ee57cfcb597)
 
-bash
-Salin kode
-mkdir website-utama website-profil
 1.2. Buat file HTML di dalam direktori website-utama
 Buat file index.html di dalam direktori website-utama.
 
