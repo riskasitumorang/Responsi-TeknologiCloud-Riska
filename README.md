@@ -179,17 +179,12 @@ Akses website utama melalui browser: http://<IP_Address>:8080.
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/799b6c2d-4a3a-4ee5-a7a0-cdb0e84dba3e)
 
-
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/db5f6862-64f2-4705-8958-be5d1b31c107)
-
-Pembahasan :
-
-Untuk menguji apakah kedua website berjalan dengan benar, akses website utama melalui browser dengan URL http://<IP_Address>:8080. Klik link "profil" dan pastikan link tersebut mengarah ke dan menampilkan gambar profil di http://<IP_Address>:8081/foto.jpg. Ini akan memastikan bahwa kedua kontainer berjalan dan berfungsi sesuai yang diharapkan serta jaringan Docker berfungsi dengan baik untuk menghubungkan kedua website.
-
-
 
 Klik link "profil" dan pastikan link tersebut mengarah dan menampilkan gambar profil Anda di http://<IP_Address>:8081/foto.jpg.
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/0c426be3-0b9b-40c5-bd88-5cf65bf324b2)
 
+Pembahasan :
 
+Untuk menguji apakah kedua website berjalan dengan benar, akses website utama melalui browser dengan URL http://<IP_Address>:8080. Klik link "profil" dan pastikan link tersebut mengarah ke dan menampilkan gambar profil di http://<IP_Address>:8081/foto.jpg. Ini akan memastikan bahwa kedua kontainer berjalan dan berfungsi sesuai yang diharapkan serta jaringan Docker berfungsi dengan baik untuk menghubungkan kedua website.
