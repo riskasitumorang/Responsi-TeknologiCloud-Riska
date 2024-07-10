@@ -2,7 +2,7 @@
  
 # 1. Persiapan
 
-**1.1. Buat Direktori**
+****1.1. Buat Direktori********
 
 Buat dua direktori yaitu website-utama dan website-profil.
 
@@ -124,8 +124,9 @@ _docker run -d --name website-profil --network my-Riska-Novita-Situmorang-networ
 
 
 
-Pengujian
+# Pengujian
 Akses website utama melalui browser: http://<IP_Address>:8080.
+
 Klik link "profil" dan pastikan link tersebut mengarah dan menampilkan gambar profil Anda di http://<IP_Address>:8081/foto.jpg.
 
  
