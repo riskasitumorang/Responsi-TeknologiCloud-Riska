@@ -114,15 +114,19 @@ _docker run -d --name website-profil --network my-Riska-Novita-Situmorang-networ
 # Pengujian
 
 Klik Traffic / Ports
+
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/eb9f3e1d-4732-4a4f-97f2-2e0adddb0cf3)
 
 Akses website utama melalui browser: http://<IP_Address>:8080.
 
-![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/46c4c837-74c0-4b00-a823-50ba4382a831)
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/799b6c2d-4a3a-4ee5-a7a0-cdb0e84dba3e)
 
-![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/a6fb90e0-592a-4741-81f6-99f2878cb254)
+
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/db5f6862-64f2-4705-8958-be5d1b31c107)
+
 
 Klik link "profil" dan pastikan link tersebut mengarah dan menampilkan gambar profil Anda di http://<IP_Address>:8081/foto.jpg.
 
-![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/abc1c5da-4256-4036-9978-8ed4ded34983)
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/0c426be3-0b9b-40c5-bd88-5cf65bf324b2)
+
 
