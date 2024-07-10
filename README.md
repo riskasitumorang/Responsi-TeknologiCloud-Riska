@@ -13,6 +13,7 @@ _mkdir website-utama website-profil_
 Buat file index.html di dalam direktori website-utama.
 
 _nano website-utama/index.html_
+
 Isi file index.html dengan konten berikut:
 
 <!DOCTYPE html>
@@ -56,25 +57,31 @@ Isi file index.html dengan konten berikut:
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/4f09ff2b-b840-4672-8ba9-5d42f8f6eb99)
 
 
-#2. Buat Docker Network
-Buat jaringan Docker dengan nama _my-Riska-Novita-Situmorang-network_
-![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/0c19be2b-6562-4a75-a89e-7282e3261721)
+# 2. Buat Docker Network
 
-#3. Buat Dockerfile dan Image
-3.1. Dockerfile untuk Website Utama
+Buat jaringan Docker dengan nama my-Riska-Novita-Situmorang-network
+
+_docker network create my-Riska-Novita-Situmorang-network_
+
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/b0b4080f-af50-4a7f-958a-2a0a92cd0340)
+
+# 3. Buat Dockerfile dan Image
+
+**3.1. Dockerfile untuk Website Utama**
 Buat file Dockerfile di dalam direktori website-utama.
 
-bash
-Salin kode
-nano website-utama/Dockerfile
+_nano website-utama/Dockerfile_
+
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/11b91303-c8b6-4c3c-a829-161cda32a70e)
+
 Isi file Dockerfile dengan konten berikut:
 
-Dockerfile
-Salin kode
 FROM nginx:latest
 COPY . /usr/share/nginx/html
 EXPOSE 80
-3.2. Dockerfile untuk Website Profil
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/feab2a8e-ac0a-4875-b173-9feb5effd004)
+
+**3.2. Dockerfile untuk Website Profil**
 Buat file Dockerfile di dalam direktori website-profil.
 
 bash
