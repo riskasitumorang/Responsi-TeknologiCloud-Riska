@@ -2,7 +2,7 @@
  
 # 1. Persiapan
 
-******1.1. Buat Direktori******
+**1.1. Buat Direktori**
 
 Buat dua direktori yaitu website-utama dan website-profil.
 
@@ -12,11 +12,9 @@ _mkdir website-utama website-profil_
 
 **1.2. Buat file HTML di dalam direktori website-utama**
 
-Buat file index.html di dalam direktori website-utama.
-
 _nano website-utama/index.html_
 
-Isi file index.html dengan konten berikut
+Isi file index.html dengan kode berikut
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/d6a85906-f6fb-469b-a9f1-0e82016dcca5)
 
@@ -24,8 +22,6 @@ Pembahasan :
 
 
 **1.3. Buat file HTML di dalam direktori website-profil**
-
-Buat file index.html di dalam direktori website-profil.
 
 _nano website-profil/index.html_
 
@@ -50,18 +46,16 @@ Pembahasan :
 # 3. Buat Dockerfile dan Image
 
 **3.1. Dockerfile untuk Website Utama**
-Buat file Dockerfile di dalam direktori website-utama.
 
 _nano website-utama/Dockerfile_
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/11b91303-c8b6-4c3c-a829-161cda32a70e)
 
-Isi file Dockerfile dengan konten berikut:
+Isi file Dockerfile dengan kode berikut:
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/feab2a8e-ac0a-4875-b173-9feb5effd004)
 
 **3.2. Dockerfile untuk Website Profil**
-Buat file Dockerfile di dalam direktori website-profil.
 
 _nano website-profil/Dockerfile_
 
@@ -112,21 +106,23 @@ _docker run -d --name website-utama --network my-Riska-Novita-Situmorang-network
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/c6ca4ce4-abd9-4ce0-8098-b7a47f1f7d6d)
 
 6.2. Jalankan Container Website Profil
-Jika menggunakan volume:
-
-_docker run -d --name website-profil --network my-nama-mahasiswa-network -v profile-images:/usr/share/nginx/html/profile -p 8081:80 website-profil_
-
-Jika tidak menggunakan volume:
 
 _docker run -d --name website-profil --network my-Riska-Novita-Situmorang-network -p 8081:80 website-profil_
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/d21a68a8-f2bd-481e-8105-1772efb8090d)
 
-
-
 # Pengujian
+
+Klik Traffic / Ports
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/eb9f3e1d-4732-4a4f-97f2-2e0adddb0cf3)
+
 Akses website utama melalui browser: http://<IP_Address>:8080.
+
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/46c4c837-74c0-4b00-a823-50ba4382a831)
+
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/a6fb90e0-592a-4741-81f6-99f2878cb254)
 
 Klik link "profil" dan pastikan link tersebut mengarah dan menampilkan gambar profil Anda di http://<IP_Address>:8081/foto.jpg.
 
- 
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/abc1c5da-4256-4036-9978-8ed4ded34983)
+
