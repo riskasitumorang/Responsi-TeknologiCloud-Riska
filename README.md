@@ -124,7 +124,9 @@ _docker build -t website-profil ._
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/8e08336a-2793-43d4-966a-f50533c5a291)
 
+Pembahasan :
 
+Perintah cd ../website-profil digunakan untuk berpindah ke direktori website-profil dari direktori sebelumnya. Perintah docker build -t website-profil . digunakan untuk membangun image Docker dari Dockerfile yang ada di direktori tersebut. Sama seperti sebelumnya, opsi -t memberi nama pada image yang dibangun.
 # 5. Docker Volume (Opsional)
 
 Buat volume bernama profile-images.
@@ -179,6 +181,11 @@ Akses website utama melalui browser: http://<IP_Address>:8080.
 
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/db5f6862-64f2-4705-8958-be5d1b31c107)
+
+Pembahasan :
+
+Untuk menguji apakah kedua website berjalan dengan benar, akses website utama melalui browser dengan URL http://<IP_Address>:8080. Klik link "profil" dan pastikan link tersebut mengarah ke dan menampilkan gambar profil di http://<IP_Address>:8081/foto.jpg. Ini akan memastikan bahwa kedua kontainer berjalan dan berfungsi sesuai yang diharapkan serta jaringan Docker berfungsi dengan baik untuk menghubungkan kedua website.
+
 
 
 Klik link "profil" dan pastikan link tersebut mengarah dan menampilkan gambar profil Anda di http://<IP_Address>:8081/foto.jpg.
