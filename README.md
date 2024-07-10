@@ -1,21 +1,18 @@
 # Responsi-TeknologiCloud-Riska
  
 #1. Persiapan
-1.1. Buat Direktori
+**1.1. Buat Direktori**
 Buat dua direktori yaitu website-utama dan website-profil.
+
 _mkdir website-utama website-profil_
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/c422807f-579d-4865-9107-9ee57cfcb597)
 
-1.2. Buat file HTML di dalam direktori website-utama
+**1.2. Buat file HTML di dalam direktori website-utama**
 Buat file index.html di dalam direktori website-utama.
 
-bash
-Salin kode
-nano website-utama/index.html
+_nano website-utama/index.html_
 Isi file index.html dengan konten berikut:
 
-html
-Salin kode
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,16 +29,34 @@ Salin kode
     <a href="/profil">Profil</a>
 </body>
 </html>
-1.3. Letakkan file gambar profil di dalam direktori website-profil
-Salin foto profil Anda (misalnya foto.jpg) ke dalam direktori website-profil.
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/4169a3cc-53d4-4a54-a93c-c2b7e4a61559)
 
-2. Buat Docker Network
-Buat jaringan Docker dengan nama my-nama-mahasiswa-network.
+**1.3. Buat file HTML di dalam direktori website-profil**
+Buat file index.html di dalam direktori website-profil.
 
-bash
-Salin kode
-docker network create my-nama-mahasiswa-network
-3. Buat Dockerfile dan Image
+_nano website-profil/index.html_
+Isi file index.html dengan konten berikut:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Profil</title>
+</head>
+<body>
+    <h1>Halaman Profil</h1>
+    <img src="https://media.licdn.com/dms/image/D5603AQHRagwY7woObA/profile-displayphoto-shrink_200_200/0/1718221719049?e=2147483647&v=beta&t=EPFKyTKV1FN6MrzHGYV4Hki0OhXja5lTYCG-1fuIEi8" alt="Foto Profil">
+</body>
+</html>
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/4f09ff2b-b840-4672-8ba9-5d42f8f6eb99)
+
+
+#2. Buat Docker Network
+Buat jaringan Docker dengan nama _my-Riska-Novita-Situmorang-network_
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/0c19be2b-6562-4a75-a89e-7282e3261721)
+
+#3. Buat Dockerfile dan Image
 3.1. Dockerfile untuk Website Utama
 Buat file Dockerfile di dalam direktori website-utama.
 
