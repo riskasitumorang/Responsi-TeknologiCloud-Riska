@@ -5,6 +5,7 @@
 Buat dua direktori yaitu website-utama dan website-profil.
 
 _mkdir website-utama website-profil_
+
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/c422807f-579d-4865-9107-9ee57cfcb597)
 
 **1.2. Buat file HTML di dalam direktori website-utama**
@@ -29,7 +30,9 @@ Isi file index.html dengan konten berikut:
     <a href="/profil">Profil</a>
 </body>
 </html>
-![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/4169a3cc-53d4-4a54-a93c-c2b7e4a61559)
+
+![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/d6a85906-f6fb-469b-a9f1-0e82016dcca5)
+
 
 **1.3. Buat file HTML di dalam direktori website-profil**
 Buat file index.html di dalam direktori website-profil.
