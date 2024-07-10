@@ -10,6 +10,7 @@ _mkdir website-utama website-profil_
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/a3642b2f-c994-49ba-b40f-c05a8208ac2b)
 Pembahasan :
+
 Perintah mkdir website-utama website-profil digunakan untuk membuat dua direktori baru bernama website-utama dan website-profil. Direktori ini akan digunakan untuk menyimpan file HTML dan Dockerfile yang terkait dengan masing-masing website. Dengan membuat direktori terpisah, struktur proyek menjadi lebih terorganisir dan mudah dikelola.
 
 
@@ -19,11 +20,18 @@ _nano website-utama/index.html_
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/e794c1f0-c9fa-49af-9b8c-b97bce87ade9)
 
+Pembahasan : 
+
+Perintah nano website-utama/index.html membuka editor teks Nano untuk membuat dan mengedit file HTML bernama index.html di dalam direktori website-utama. File ini akan berfungsi sebagai halaman utama dari website utama.
+
+
 Isi file index.html dengan kode berikut
 
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/d6a85906-f6fb-469b-a9f1-0e82016dcca5)
 
 Pembahasan :
+
+Kode HTML ini adalah struktur dasar dari sebuah halaman web. Tag <title> menetapkan judul halaman yang akan ditampilkan pada tab browser. Tag <h1> digunakan untuk judul utama di halaman, dan tag <p> berisi tautan ke halaman profil dengan menggunakan tag <a>. Tautan ini akan mengarahkan pengguna ke website profil yang berjalan di port 8081.
 
 
 **1.3. Buat file HTML di dalam direktori website-profil**
@@ -35,6 +43,9 @@ Isi file index.html dengan konten berikut:
 ![image](https://github.com/riskasitumorang/Responsi-TeknologiCloud-Riska/assets/136875985/4f09ff2b-b840-4672-8ba9-5d42f8f6eb99)
 
 Pembahasan :
+
+Perintah nano website-profil/index.html membuka editor teks Nano untuk membuat dan mengedit file HTML bernama index.html di dalam direktori website-profil. File ini akan berfungsi sebagai halaman utama dari website profil.
+
 
 
 # 2. Buat Docker Network
