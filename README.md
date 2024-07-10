@@ -1,6 +1,7 @@
 # Responsi-TeknologiCloud-Riska
  
-#1. Persiapan
+# 1. Persiapan
+
 **1.1. Buat Direktori**
 Buat dua direktori yaitu website-utama dan website-profil.
 
